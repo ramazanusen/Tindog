@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 1.5em;
+    max-width: 35em;
+    box-shadow: rgba(100, 100, 100, 0.5) 0px 7px 29px 0px;
+}
+
+header {
+    display: flex;
+    height: 5em;
+    justify-content: space-between;
+    padding: 1.25em 0.625em;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(270deg, #FA695A 0%, #F83375 100%);
+    border-radius: 1.875em;
+    cursor: pointer;
+    width: 5.25em;
+    height: 2.625em;
+    padding: 0.6875em 1.9375em;
+}
+
+main {
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#dog-info {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #F8F8F8;
+    position: absolute;
+    bottom: 1.4em;
+    left: 0.89em;
+}
+
+#dog-description {
+    font-size: 1.5rem;
+    color: #B7B7B7;
+    position: absolute;
+    bottom: 0.685em;
+    left: 1.3em;
+}
+
+.like-or-nope {
+    position: absolute;
+    width: 14.6em;
+    height: 7.25em;
+    top: 70px;
+    left: 20px;
+    transform: rotate(320deg);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 1.4em;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 5em;
+    width: 5em;
+    padding: 1em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+.like-btn-div:hover {
+    background: #DBFFF4;
+}
+
+.nope-btn-div:hover{
+    background: #FFE7EF;
+}
+
+#nope-btn, #like-btn {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
