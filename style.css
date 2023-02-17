@@ -36,6 +36,18 @@ main {
     padding: 10px;
 }
 
+.hide {
+    display: none;
+}
+
+.dog-info-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rebeccapurple;
+    width: 25px;
+}
+
 #dog-info {
     font-size: 2rem;
     font-weight: 600;
@@ -51,6 +63,14 @@ main {
     position: absolute;
     bottom: 0.685em;
     left: 1.3em;
+    max-width: 100%;
+    margin-top: 0.2em;
+}
+
+#dog-image {
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 5%;
 }
 
 .like-or-nope {
@@ -80,11 +100,11 @@ footer div {
     cursor: pointer;
 }
 
-.like-btn-div:hover {
+#like-btn-div:hover {
     background: #DBFFF4;
 }
 
-.nope-btn-div:hover{
+#nope-btn-div:hover{
     background: #FFE7EF;
 }
 
